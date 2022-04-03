@@ -2,15 +2,27 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.mancajima.movie_zoluxiones" >
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
+        android:name=".MovieZoluxionesApp"
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/ic_zmovies"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@mipmap/ic_zmovies_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Movie_zoluxiones" >
+        android:theme="@style/AppThemeCustomNoActionBarDark" >
         <activity
-            android:name=".MainActivity"
+            android:name=".ui.view.MovieDetail"
+            android:exported="false"
+            android:label="@string/title_activity_movie_detail"
+            android:theme="@style/AppThemeCustomNoActionBarDark.NoActionBar" />
+        <activity
+            android:name=".ui.view.Home"
+            android:exported="false"
+            android:label="@string/title_home" />
+        <activity
+            android:name=".ui.view.Login"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
