@@ -25,13 +25,14 @@
             app:toolbarId="@+id/toolbar">
 
             <ImageView
-                android:id="@+id/imgColaboradorDetalle"
+                android:id="@+id/imv_detail_movie"
                 android:layout_width="match_parent"
                 android:layout_height="560dp"
                 android:layout_gravity="center_vertical"
                 android:adjustViewBounds="true"
                 android:scaleType="centerCrop"
-                android:src="@drawable/img_test" />
+                android:transitionName="imageTransition"
+                android:src="@drawable/img_not_poster_error" />
 
             <LinearLayout
                 android:id="@+id/layout_imagen_ColaboradorDetalle"
@@ -52,7 +53,9 @@
         </com.google.android.material.appbar.CollapsingToolbarLayout>
     </com.google.android.material.appbar.AppBarLayout>
 
-    <include layout="@layout/content_scrolling" />
+    <include
+        android:id="@+id/content_scrolling"
+        layout="@layout/content_scrolling" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/fab"

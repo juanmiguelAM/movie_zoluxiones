@@ -16,13 +16,20 @@
             android:name=".ui.view.MovieDetail"
             android:exported="false"
             android:label="@string/title_activity_movie_detail"
-            android:theme="@style/AppThemeCustomNoActionBarDark.NoActionBar" />
+            android:theme="@style/AppThemeCustomNoActionBarDark.NoActionBar">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+            </intent-filter>
+        </activity>
         <activity
             android:name=".ui.view.Home"
             android:exported="false"
             android:label="@string/title_home" />
         <activity
             android:name=".ui.view.Login"
+            android:screenOrientation="sensorPortrait"
+            android:windowSoftInputMode="stateHidden"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

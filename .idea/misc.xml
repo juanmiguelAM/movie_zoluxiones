@@ -5,17 +5,22 @@
       <map>
         <entry key="..\:/android_kotlin/movie_zoluxiones/app/src/main/res/drawable/ic_password.xml" value="0.245" />
         <entry key="..\:/android_kotlin/movie_zoluxiones/app/src/main/res/drawable/ic_play_circle.xml" value="0.245" />
+        <entry key="..\:/android_kotlin/movie_zoluxiones/app/src/main/res/drawable/ic_search.xml" value="0.245" />
         <entry key="..\:/android_kotlin/movie_zoluxiones/app/src/main/res/drawable/ic_user.xml" value="0.245" />
         <entry key="..\:/android_kotlin/movie_zoluxiones/app/src/main/res/drawable/style_background_radial.xml" value="0.245" />
+        <entry key="..\:/android_kotlin/movie_zoluxiones/app/src/main/res/drawable/style_button_paginate.xml" value="0.2615" />
         <entry key="..\:/android_kotlin/movie_zoluxiones/app/src/main/res/drawable/style_button_primary.xml" value="0.245" />
         <entry key="..\:/android_kotlin/movie_zoluxiones/app/src/main/res/drawable/style_text_box.xml" value="0.245" />
+        <entry key="..\:/android_kotlin/movie_zoluxiones/app/src/main/res/drawable/style_text_box_2.xml" value="0.245" />
         <entry key="..\:/android_kotlin/movie_zoluxiones/app/src/main/res/layout-w1240dp/content_scrolling.xml" value="0.18" />
         <entry key="..\:/android_kotlin/movie_zoluxiones/app/src/main/res/layout-w936dp/content_scrolling.xml" value="0.275" />
         <entry key="..\:/android_kotlin/movie_zoluxiones/app/src/main/res/layout/activity_home.xml" value="0.33" />
+        <entry key="..\:/android_kotlin/movie_zoluxiones/app/src/main/res/layout/activity_login.xml" value="0.3009833262077811" />
         <entry key="..\:/android_kotlin/movie_zoluxiones/app/src/main/res/layout/activity_main.xml" value="0.35260416666666666" />
-        <entry key="..\:/android_kotlin/movie_zoluxiones/app/src/main/res/layout/activity_movie_detail.xml" value="0.3009833262077811" />
+        <entry key="..\:/android_kotlin/movie_zoluxiones/app/src/main/res/layout/activity_movie_detail.xml" value="0.25" />
         <entry key="..\:/android_kotlin/movie_zoluxiones/app/src/main/res/layout/content_scrolling.xml" value="0.3009833262077811" />
-        <entry key="..\:/android_kotlin/movie_zoluxiones/app/src/main/res/layout/item_movie_main.xml" value="0.25" />
+        <entry key="..\:/android_kotlin/movie_zoluxiones/app/src/main/res/layout/item_movie_main.xml" value="0.33" />
+        <entry key="..\:/android_kotlin/movie_zoluxiones/app/src/main/res/layout/item_network_state.xml" value="0.3009833262077811" />
       </map>
     </option>
   </component>

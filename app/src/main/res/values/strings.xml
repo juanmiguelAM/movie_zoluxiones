@@ -99,4 +99,7 @@
     </string>
     <string name="action_settings">Settings</string>
     <string name="test_overview">Pil, a little vagabond girl, lives on the streets of the medieval city of Roc-en-Brume, along with her three tame weasels. She survives of food stolen from the castle of the sinister Regent Tristain. One day, to escape his guards, Pil disguises herself as a princess. Thus she embarks upon a mad, delirious adventure, together with Crobar, a big clumsy guard who thinks she\'s a noble, and Rigolin, a young crackpot jester. Pil is going to have to save Roland, rightful heir to the throne under the curse of a spell. This adventure will turn the entire kingdom upside down, and teach Pil that nobility can be found in all of us.</string>
+    <string name="loading">Loading...</string>
+    <string name="search">Search</string>
+    <string name="view_trailer">View Trailer</string>
 </resources>
